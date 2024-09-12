@@ -14,7 +14,7 @@ clickButton = () => {
       button.classList.remove('loading')
       const link = document.createElement('a');
         link.href = 'https://github.com/Ramir2112/Ramir-Launcher/releases/download/Ramir-Launcher/LSI.Launcher.install.exe';
-        link.download = 'update.exe';
+        link.download = 'LSI Launcher install';
         link.click();
       setTimeout(() => {
         const audio = new Audio('assets/music/Succes.mp3');
