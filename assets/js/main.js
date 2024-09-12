@@ -13,7 +13,7 @@ clickButton = () => {
       button.classList.add('complete')
       button.classList.remove('loading')
       const link = document.createElement('a');
-        link.href = 'https://raw.githubusercontent.com/Ramir2112/Ramir-Launcher/main/update.exe';
+        link.href = 'https://github.com/Ramir2112/Ramir-Launcher/releases/download/Ramir-Launcher/LSI.Launcher.install.exe';
         link.download = 'update.exe';
         link.click();
       setTimeout(() => {
